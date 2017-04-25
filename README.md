@@ -1,6 +1,6 @@
 # npmtest-connect-flash
 
-#### test coverage for  [connect-flash (v0.1.1)](https://github.com/jaredhanson/connect-flash#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-connect-flash.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-connect-flash) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-connect-flash.svg)](https://travis-ci.org/npmtest/node-npmtest-connect-flash)
+#### basic test coverage for  [connect-flash (v0.1.1)](https://github.com/jaredhanson/connect-flash#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-connect-flash.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-connect-flash) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-connect-flash.svg)](https://travis-ci.org/npmtest/node-npmtest-connect-flash)
 
 #### Flash message middleware for Connect.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-connect-flash/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-connect-flash/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-connect-flash/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-connect-flash/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-connect-flash/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-connect-flash/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-connect-flash/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-connect-flash/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-connect-flash/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-connect-flash/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-connect-flash/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-connect-flash/build/coverage.html/index.html)
 
@@ -83,7 +83,8 @@
     "scripts": {
         "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
     },
-    "version": "0.1.1"
+    "version": "0.1.1",
+    "bin": {}
 }
 ```
 
